@@ -8,7 +8,7 @@ In order to adapt a pipeline to an Angular project in Github Actions we need to 
 
   - Include the javascript files **bump_version.js** and **current_version.js** which within the pipeline will extract the current version and the type of version to increase according to certain criteria.
 
--#### on Github
+- #### on Github
 
   - A Personal access token must be generated from the settings panel which will be used in the secrets of each repository.
 
